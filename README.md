@@ -10,7 +10,7 @@ Explanation of running livewire on the server
 
 First you need to download livewire into the project
 
- - [https://laravel-livewire.com/docs/2.x/installation#publishing-config](https://laravel-livewire.com/docs/2.x/installation)https://laravel-livewire.com/docs/2.x/installation
+ - https://laravel-livewire.com/docs/2.x/quickstart#install-livewire
     
 ### After following the steps this error appears
 
@@ -20,6 +20,18 @@ First you need to download livewire into the project
 To resolve the error, follow these steps :
 
 ## Publishing Livewire Assets
+
+One of the most direct methods to resolve this issue is to publish the Livewire assets using the following command:
+
+```bash
+   php artisan vendor:publish --force --tag=livewire:assets
+```
+
+## Modifying the asset_url in Livewire’s Configuration
+
+```bash
+   php artisan vendor:publish --tag=livewire:config
+```
 
 After publishing the config file, locate the `asset_url` setting in the `config/livewire.php` file and change it to match your local or production domain, like so:
 
