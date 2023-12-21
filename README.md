@@ -19,6 +19,8 @@ First you need to download livewire into the project
 
 To resolve the error, follow these steps :
 
+## Publishing Livewire Assets
+
 After publishing the config file, locate the `asset_url` setting in the `config/livewire.php` file and change it to match your local or production domain, like so:
 
 ```bash
