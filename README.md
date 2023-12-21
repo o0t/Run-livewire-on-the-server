@@ -12,3 +12,4 @@ First you need to download livewire into the project
 
  - [https://laravel-livewire.com/docs/2.x/installation#publishing-config](https://laravel-livewire.com/docs/2.x/installation)https://laravel-livewire.com/docs/2.x/installation
     
+### After following the steps this error appears
