@@ -46,7 +46,7 @@ But I prefer to use the `APP_URL` configuration of the application to set the `a
    'asset_url' => env('APP_URL'),
 ```
 
-your URL App in `.env`
+Apply your URL in  `.env`
 
 ![9](https://github.com/o0t/Run-livewire-on-the-server/assets/94997828/710253f1-20bd-4321-b717-e4775ea5dd52)
 
