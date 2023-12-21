@@ -56,5 +56,13 @@ Apply your URL in  `.env`
 ```
 
 
+##  NGINX Configuration
+
+
+```bash
+   try_files $uri /index.php?$query_string;
+```
+
+
 
 
