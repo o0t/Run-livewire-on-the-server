@@ -10,5 +10,5 @@ Explanation of running livewire on the server
 
 First you need to download livewire into the project
 
- - https://laravel-livewire.com/docs/2.x/quickstart#install-livewire
+ - https://laravel-livewire.com/docs/2.x/installation#publishing-config
     
