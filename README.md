@@ -29,5 +29,5 @@ But I prefer to use the `APP_URL` configuration of the application to set the `a
 
 
 ```bash
-   'asset_url' => env(APP_URL),
+   'asset_url' => env('APP_URL'),
 ```
