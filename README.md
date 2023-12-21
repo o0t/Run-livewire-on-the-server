@@ -51,7 +51,9 @@ Apply your URL in  `.env`
 ![9](https://github.com/o0t/Run-livewire-on-the-server/assets/94997828/710253f1-20bd-4321-b717-e4775ea5dd52)
 
 
-
+```bash
+   php artisan config:cache
+```
 
 
 
